@@ -11,7 +11,7 @@ const Sidebar = () => (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
             <img src={LogoS} alt='logo' />
-            <img classname="sub-logo" src={LogoSubtitle} alt='slobodon' />
+            <img className="sub-logo" src={LogoSubtitle} alt='slobodon' />
 
         </Link>
 
