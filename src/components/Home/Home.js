@@ -47,7 +47,7 @@ const Home = () => {
                 </h2>
                 <Link to="/contact" className='flat-button'>CONTACT ME</Link>
             </div>
-            <Logo> </Logo>
+            <Logo />
         </div>
     )
 }
