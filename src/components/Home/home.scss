@@ -24,13 +24,13 @@
             color: #ffd700;
             font-size: 18px;
             position: absolute;
-            margin-top: -40px;
-            left: 15px;
+            margin-top: -25px;
+            // left: 15px;
             opacity: 0.6;
         }
 
         &::after {
-            content: '<h1/>';
+            content: '</h1>';
             font-family: 'La Belle Aurore';
             color: #ffd700;
             font-size: 18px;
