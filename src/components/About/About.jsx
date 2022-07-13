@@ -1,4 +1,4 @@
-import { faAngular, faCss3, faGitAlt, faGithub, faGitSquare, faHtml5, faJs, faJsSquare, faReact } from "@fortawesome/free-brands-svg-icons";
+import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useEffect, useState } from "react";
 import Loader from "react-loaders";
@@ -16,6 +16,7 @@ const About = () => {
 
     return (
         <>
+            <Loader type="pacman" />
             <div className='container about-page' >
                 <div className='text-zone'>
                     <h1>
@@ -77,7 +78,6 @@ const About = () => {
 
                 </div>
             </div>
-            <Loader type="pacman" />
         </>
     )
 }
