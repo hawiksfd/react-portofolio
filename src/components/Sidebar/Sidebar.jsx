@@ -25,7 +25,8 @@ const Sidebar = () => (
             <NavLink
                 exact="true"
                 activeclassname="active"
-                className="about-link" to="/about">
+                className="about-link"
+                to="/about">
                 <FontAwesomeIcon icon={faUser} color='#4d4d4de' />
             </NavLink>
             <NavLink

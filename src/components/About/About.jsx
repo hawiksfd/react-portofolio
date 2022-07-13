@@ -23,8 +23,8 @@ const About = () => {
                         <Animated
                             letterClass={letterClass}
                             strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
-                            idx={15}>
-                        </Animated>
+                            idx={15} />
+
                     </h1>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lacinia metus vitae
